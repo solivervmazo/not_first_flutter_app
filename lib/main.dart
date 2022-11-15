@@ -8,6 +8,7 @@ import 'package:not_first_flutter_app/screens/icons_screen.dart';
 import 'package:not_first_flutter_app/screens/image_screen.dart';
 import 'package:not_first_flutter_app/screens/list_view_screen.dart';
 import 'package:not_first_flutter_app/screens/navigation_drawer_screen.dart';
+import 'package:not_first_flutter_app/screens/navigation_screen.dart';
 import 'package:not_first_flutter_app/screens/stack_screen.dart';
 import 'package:not_first_flutter_app/screens/welcome_screen.dart';
 
@@ -61,6 +62,11 @@ List<Map<String, dynamic>> screens = [
     'name': 'stack',
     'title': 'stack',
     'screen': const StackScreen(),
+  },
+  {
+    'name': 'navigation',
+    'title': 'forms and navigation',
+    'screen': const NaviagtionScreen(),
   },
 ];
 
